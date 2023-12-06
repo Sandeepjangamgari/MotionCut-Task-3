@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>Product Page</h1>
+    </header>
+
+    <div class="product-container">
+        <div class="product-info">
+            <h2>Maran prods</h2>
+            <p>This is the latest product in the maaran business. This device comes with 6.8 inch OLED display with 1080 x 2400 resolution.
+                Coring gorilla glass protection. It is upgradable to android 15. Chipset of Snapdragen 8 gen 3. Its storage 128GB 8GB RAM.
+                Camera 64 MP, f/1.9, 26mm (wide), 1/1.73", 0.8µm, dual pixel PDAF, OIS 13 MP, f/2.2, 120˚ (ultrawide), 1.12µm.
+                Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, barometer
+BATTERY	Type	Li-Po 4385 mAh, non-removable
+Charging	18W wired, PD3.0
+7.5W wireless
+MISC	Colors	Charcoal, Snow, Sea, Coral
+Models	GWKK3, GHL1X, G0DZQ, G82U8
+            </p>
+            <p><strong>Price:</strong> $19.99</p>
+            <button id="addToCartBtn" onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div class="product-image">
+            <img src="logo-black.png" alt="Product Image" id="productImage">
+        </div>
+    </div>
+
+    <div class="cart" onclick="viewCart()">
+        <span class="cart-count" id="cartCount">0</span>
+        View Cart
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
